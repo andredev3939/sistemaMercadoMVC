@@ -2,9 +2,10 @@ package model;
 import java.util.ArrayList;
 
 public class Mercado {
+	/* Propriedades privadas são acessadas via getters e setters para proteção */
 	private int codigoMercado; 
 	private String nome;
-	/* O mercado possui uma lista de categorias e itens, que possuem categorias */
+	/* O mercado possui uma lista de categorias e itens */
 	private ArrayList <Categoria> categorias;
 	
 	public Mercado(String nome) { // Construtor que preenche nome e coleções de categorias e itens
@@ -37,7 +38,7 @@ public class Mercado {
 		this.codigoMercado = codigoMercado;
 	}
 	
-	public void adicionarCategoria(Categoria categoria) { // O parâmetro é uma classe
+	public void adicionarCategoria(Categoria categoria) { // O parâmetro é um objeto instanciado 
 		categorias.add(categoria); // Adiciona o parâmetro categoria no array de categorias 
 	}
 	
