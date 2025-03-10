@@ -1,0 +1,10 @@
+tres coracoes, 4.00, alimentos  
+cafe brasileiro, 4.50, alimentos  
+escova de dente, 3.00, higienePessoal  
+desodorante, 10.00, higienePessoal  
+candida, 20.00, produtosDeLimpeza  
+detergente, 5.00, produtosDeLimpeza  
+Redbull que dá asas , 9.99, alimentos
+Redbull que dá asas , 9.99, alimentos
+Redbull que dá asas , 9.99, alimentos
+Escova de dente verde , 4.0, Higiene pessoal
